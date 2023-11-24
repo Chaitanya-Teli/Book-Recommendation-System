@@ -26,7 +26,8 @@ For Ratings Table:
 </details>
 <details>
 <summary style="font-size: 20px;"> 2. Algorithms Implemented</summary>
-#### 2.1 Popularity Based Recommendation :
+ 
+* ##### 2.1 Popularity Based Recommendation :
 
 * ##### Popular in the Whole Collection <br>
 We have sorted the dataset according to the total ratings each of the books have received in non-increasing order and then recommended top n books.
