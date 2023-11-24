@@ -1,6 +1,6 @@
 # Book-Recommendation-System
-
-### 1. Data Cleaning and Pre-Processing
+<details>
+<summary style="font-size: 20px;"> 1. Data Cleaning and Pre-Processing.</summary>
 The dataset consists of three tables; Books, Users, and Ratings. Data from all three tables are cleaned and preprocessed separately as defined below briefly:<br><br>
 For Books Table:
 * Drop all three Image URL features.
@@ -23,8 +23,9 @@ For Ratings Table:
 * Removal of punctuation from ISBN column values and if that resulting ISBN is available in the book dataset only then considering else drop that entity.
 * Upper-casing all the alphabets present in the ISBN column.
 * Removal of duplicate entries from the table.
-
-### 2. Algorithms Implemented:
+</details>
+<details>
+<summary style="font-size: 20px;"> 2. Algorithms Implemented</summary>
 #### 2.1 Popularity Based Recommendation :
 
 * ##### Popular in the Whole Collection <br>
@@ -63,3 +64,4 @@ This system recommends books by calculating similarities in Book Titles. For thi
 #### 2.7 Hybrid Approach (Collaborative+Content) Recommendation
 A hybrid recommendation system was built using the combination of both content-based filtering and collaborative filtering systems. A percentile score is given to the results obtained from both content and collaborative filtering models and is combined to recommend top n books.
 
+</details>
